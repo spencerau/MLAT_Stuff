@@ -1,0 +1,4 @@
+requests
+pyyaml
+datasets
+mlx_lm

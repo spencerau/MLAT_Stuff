@@ -1,0 +1,15 @@
+# model: Qwen/Qwen3.5-9B
+model: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+port: 8080
+
+system_prompt: >
+  Solve the following AIME problem.
+  Think carefully step by step in your reasoning.
+  Your final response should contain ONLY the integer answer, nothing else.
+
+max_tokens: 32000
+context_window: 64000
+temperature: 0.4
+enable_thinking: true
+
+log_dir: logs/aime25
